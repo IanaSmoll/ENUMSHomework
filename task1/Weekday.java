@@ -34,12 +34,10 @@ public enum Weekday {
         this.day = day;
         this.character = character;
     }
-    public boolean isWeekDay()
-    {
+    public boolean isWeekDay(){
         return character.equals(NAME_WEEK_DAY);
     }
-    public boolean isHoliday()
-    {
+    public boolean isHoliday(){
         return character.equals(NAME_WEEKEND_DAY);
     }
  }
