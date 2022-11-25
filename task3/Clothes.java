@@ -16,16 +16,12 @@ class T_Shirt extends Clothes implements MenClothes, WomenClothes {
         super(size, color, price);
         this.name = "T-Shirt";
     }
-
     @Override
-    public void dressTheMan()
-    {
+    public void dressTheMan(){
         System.out.println("Man dress the " + name);
     }
-
     @Override
-    public void dressTheWoman()
-    {
+    public void dressTheWoman(){
         System.out.println("Woman dress the " + name);
     }
 }
@@ -35,16 +31,12 @@ class Trousers extends Clothes implements MenClothes, WomenClothes {
         super(size, color, price);
         this.name = "Trousers";
     }
-
     @Override
     public void dressTheMan() {
         System.out.println("Man dress the " + name);
-
     }
-
     @Override
-    public void dressTheWoman()
-    {
+    public void dressTheWoman(){
         System.out.println("Woman dress the " + name);
     }
 }
@@ -54,11 +46,9 @@ class Skirt extends Clothes implements WomenClothes {
         super(size, color, price);
         this.name = "Skirt";
     }
-
     @Override
     public void dressTheWoman(){
         System.out.println("Woman dress the " + name);
-
     }
 }
 
@@ -67,7 +57,6 @@ class Tie extends Clothes implements MenClothes {
         super(size, color, price);
         this.name = "Tie";
     }
-
     @Override
     public void dressTheMan() {
         System.out.println("Man dress the " + name);
